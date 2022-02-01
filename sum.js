@@ -16,18 +16,18 @@
 // console.log(sum);
 
 
-// function arryTotal(number) {
-//     let sum = 0;
-//     for (let i = 0; i < number.length; i++) {
-//         const element = number[i];
-//         sum = sum + element;
+function arryTotal(number) {
+    let sum = 0;
+    for (let i = 0; i < number.length; i++) {
+        const element = number[i];
+        sum = sum + element;
 
-//     }
-//     return sum;
+    }
+    return sum;
 
-// }
-// const total = arryTotal([12, 22, 32]);
-// console.log('Arry Total', total);
+}
+const total = arryTotal([12, 22, 32]);
+console.log('Arry Total', total);
 
 const number = [12, 22, 32, 42];
 let sum = 0;
